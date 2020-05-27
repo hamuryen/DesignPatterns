@@ -42,11 +42,14 @@ void PrintSingletonObjectThreadId(int order)
 int main(int argc, char** argv)
 {
 	std::vector<std::thread> threads;
+	//creating a thread then call singleton class member in loop with 100 thread
 	for (int i = 0; i < 100; i++)
 	{
 		threads.push_back(std::thread(std::thread(PrintSingletonObjectThreadId, i)));
 	}
-	for (std::thread& t : threads) {
+	//join all threads
+	for (std::thread& t : threads)
+	{
 		if (t.joinable())
 			t.join();
 	}
