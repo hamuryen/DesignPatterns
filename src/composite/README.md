@@ -13,7 +13,7 @@ The composite pattern describes a group of objects that are treated the same way
 - Define a unified `Component` interface for both part `Leaf` objects and whole `Composite` objects.
 - Individual `Leaf` objects implement the `Component` interface directly, and `Composite` objects forward requests to their child components.
 
-
+##### Notations: 
 - `Component` in code `Shape`
 - `Leaf` 		in code `Rectangle` and `Circle`
 - `Composite` in code `Group`
