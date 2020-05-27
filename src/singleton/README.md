@@ -1,9 +1,9 @@
 # Singleton
 
-<img align="left" width="100" height="60" src="https://raw.githubusercontent.com/hamuryen/DesignPatterns/master/src/singleton/uml.png">
+<img align="left" width="300" height="180" src="https://raw.githubusercontent.com/hamuryen/DesignPatterns/master/src/singleton/uml.png">
 The singleton pattern is a software design pattern that restricts the instantiation of a class to one "single" instance. This is useful when exactly one object is needed to coordinate actions across the system.
 
-##### The singleton design pattern solves problems like
+##### The singleton design pattern solves problems like:
 - How can it be ensured that a class has only one instance?
 - How can the sole instance of a class be accessed easily?
 - How can a class control its instantiation?
@@ -12,3 +12,5 @@ The singleton pattern is a software design pattern that restricts the instantiat
 ##### The singleton design pattern describes how to solve such problems: 
 - Hide the constructor of the class.
 - Define a public static operation `GetInstance()` that returns the sole instance of the class.
+
+Note: Explanations of pattern added to code files as comments.
