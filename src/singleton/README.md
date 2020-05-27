@@ -1,9 +1,7 @@
 # Singleton
 
-![Singleton UML](https://raw.githubusercontent.com/hamuryen/DesignPatterns/master/src/singleton/uml.png)
-
+<img align="left" width="100" height="60" src="https://raw.githubusercontent.com/hamuryen/DesignPatterns/master/src/singleton/uml.png">
 The singleton pattern is a software design pattern that restricts the instantiation of a class to one "single" instance. This is useful when exactly one object is needed to coordinate actions across the system.
-
 
 ##### The singleton design pattern solves problems like
 - How can it be ensured that a class has only one instance?
