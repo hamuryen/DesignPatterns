@@ -13,4 +13,6 @@ The singleton pattern is a software design pattern that restricts the instantiat
 - Hide the constructor of the class.
 - Define a public static operation `GetInstance()` that returns the sole instance of the class.
 
+Reference: Wikipedia and GoF
+
 Note: Explanations of pattern added to code files as comments.
