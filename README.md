@@ -8,5 +8,5 @@ This repository contains examples for the following patterns.
 #### Structural
 - [Composite](src/composite/README.md)
 
-###Build
+### Build
 After repository cloning, create the build files according to the platform you used with CMake and then build them according to your environment. A sample application will be built for each pattern.
