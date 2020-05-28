@@ -4,6 +4,7 @@ This repository contains examples for the following patterns.
 
 #### Creational
 - [Singleton](src/singleton/README.md)
+- [Factory](src/factory/README.md)
 
 #### Structural
 - [Composite](src/composite/README.md)

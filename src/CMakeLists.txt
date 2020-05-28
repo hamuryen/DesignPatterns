@@ -1,3 +1,4 @@
 add_subdirectory(singleton)
 add_subdirectory(composite)
 add_subdirectory(decorator)
+add_subdirectory(factory)
